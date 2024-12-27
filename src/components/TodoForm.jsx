@@ -9,7 +9,7 @@ function TodoForm() {
     const handleOnSubmit = (e)=>{
         e.preventDefault();
         if(todo){
-        //    return addTodo({todo: todo, completed: false}); //according to new syntax if field & values name is same then no need to give both...
+        //    return addTodo({todo: todo, completed: false});
         return addTodo({todo, completed: false}); 
         }
         setTodo("");
